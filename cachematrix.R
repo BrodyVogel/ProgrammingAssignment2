@@ -31,8 +31,8 @@ cacheSolve <- function(x, ...) {
 }
 
 ### Test
-test <- matrix(c(1,2,3,4),2,2)
-test_1 <- makeCacheMatrix(test)
-cacheSolve(test_1) #inverse returned after computation
+#test <- matrix(c(1,2,3,4),2,2)
+#test_1 <- makeCacheMatrix(test)
+#cacheSolve(test_1) #inverse returned after computation
 # this time returns the cached matrix
-cacheSolve(test_1) #inverse returned from cache
+#cacheSolve(test_1) #inverse returned from cache
